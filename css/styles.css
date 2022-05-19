@@ -1,0 +1,159 @@
+body {
+  font-family: 'Patua One';
+}
+
+/* Title Section */
+
+h1, h2, h3 {
+  font-family: 'Patua One';
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 2%;
+}
+
+.page-heading {
+  font-size: 50px !important;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Klee One";
+  font-size: 30px !important;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Patua One';
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image-position {
+  height: 650px;
+}
+
+.title-image {
+  transform: rotate(25deg);
+  position: relative;
+  width: 60%;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    transform: rotate(25deg);
+    position: relative;
+    width: 60%;
+  }
+}
+
+/* Feature Section */
+.features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ef8172;
+}
+
+/* Testomonial Section */
+.testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  /* Making image display in a circle */
+border-radius: 0 50% 50% 50%;
+}
+
+.press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CTA Section */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.cta-heading {
+  font-size: 40px !important;
+  color: #fff;
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
